@@ -12,4 +12,4 @@ Salient Features of YF-API_client:
 * Requests 2.25
 * HTML/django templates
 
-### NOTE: To test this project,Kindly visit https://rapidapi.com/blog/how-to-use-the-yahoo-finance-api/ to get your own API Key.
+### NOTE: To test this project,Kindly visit and register at https://rapidapi.com/blog/how-to-use-the-yahoo-finance-api/ to get your own API Key.
