@@ -7,9 +7,9 @@ Salient Features of YF-API_client:
 5. Along with showing date-time stamps when it moved out of that range, the client also shows the time-stamp when it returned in the range for the first time.
 
 
-## Home Page: Provides option to select from given Stock options and request for data in date range.
+* Home Page: Provides option to select from given Stock options and request for data in date range.
 <p align="center"><img width="100%" height="500px" src="https://github.com/adarsh2104/Yahoo-Finance-API-client/blob/main/Visuals/Home_page.png"></img></p>
-## Result Page: Shows the calculated statastical results for all requtested Stocks within the data range based on the data returned by the Yahoo-finance API.  
+* Result Page: Shows the calculated statastical results for all requtested Stocks within the data range based on the data returned by the Yahoo-finance API.  
 <p align="center"><img width="100%" height="500px" src="https://github.com/adarsh2104/Yahoo-Finance-API-client/blob/main/Visuals/Stock_search_results.png"></img></p> 
 
 ### Stacks and Libraries Used:
