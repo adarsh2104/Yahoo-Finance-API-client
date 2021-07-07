@@ -1,4 +1,4 @@
-
+<h1>Home Page : List of Available Stocks</h1>
 <form action="/" method="POST" id='new_form'>
   {% csrf_token %}
   <table>
@@ -9,7 +9,7 @@
     <tr >
       <h6 class="my-0" >
         <input type="text" name='{{forloop.counter}}__' value='{{stock_name.name.split|join:"-"}}' hidden>
-        <td><input type="checkbox"  name={{forloop.counter}} /><span style="margin-right:auto;"><span>{{ stock_name.name}}</td>
+        <td><input type="checkbox"  name={{forloop.counter}} /><span style="margin-right:auto;"><span><strong>{{ stock_name.name}}</strong></td>
           
           <td><input type="date" style="margin-right: 125px;" name="{{forloop.counter}}__start_date"></td>
         <td><input type="date" style="margin-right: 125px;" name="{{forloop.counter}}__end_date"></td>
