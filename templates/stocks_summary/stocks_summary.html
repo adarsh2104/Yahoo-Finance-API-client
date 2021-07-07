@@ -1,0 +1,21 @@
+
+<form action="/" method="POST" id='new_form'>
+  {% csrf_token %}
+  <table>
+    <th> Name</th>
+    <th> Start_date</th>
+    <th> End_date</th>
+    {% for stock_name in all_stocks_list %}
+    <tr >
+      <h6 class="my-0" >
+        <input type="text" name='{{forloop.counter}}__' value='{{stock_name.name.split|join:"-"}}' hidden>
+        <td><input type="checkbox"  name={{forloop.counter}} /><span style="margin-right:auto;"><span>{{ stock_name.name}}</td>
+          
+          <td><input type="date" style="margin-right: 125px;" name="{{forloop.counter}}__start_date"></td>
+        <td><input type="date" style="margin-right: 125px;" name="{{forloop.counter}}__end_date"></td>
+      </h6>
+    </tr>  
+    {% endfor %}
+  </table>
+  <input type="submit" value="Submit">
+</form>

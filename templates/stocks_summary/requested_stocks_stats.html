@@ -1,0 +1,21 @@
+<h1> Requested Stock Stats: </h1>
+{% for stocks_stats in requested_stocks_stats %}
+    <div>
+        <h2>{{forloop.counter}}. Name: {{stocks_stats.name}}</h2>
+        <h3>High: {{stocks_stats.high}}</h3>
+        <h3>Low: {{stocks_stats.low}}</h3>
+        <h3>Mean: {{stocks_stats.mean}}</h3>
+        <h3>Median: {{stocks_stats.median}}</h3>
+        <h3>Variance: {{stocks_stats.var}}</h3>
+        <h3>Std:{{stocks_stats.std}}</h3>
+        <h3>Upper Bound: {{stocks_stats.u_bound}}</h3>
+        <h3>Lower Bound: {{stocks_stats.l_bound}}</h3>
+        <h3>Times Gone Out of Bound: {{stocks_stats.out_of_bound_count}}</h3>
+        <h3>First Out Of Bound Occurance Timestamp: {{stocks_stats.first_out_of_bound_ts}}</h3>
+        <h3>First Return to Bound After Going Out Timestamp : {{stocks_stats.first_return_in_bound_ts}}</h3>
+    </div>  
+    <hr>
+    {% endfor %}
+
+    
+    
