@@ -1,2 +1,7 @@
 # Yahoo-Finance-API-client
-Dashboard: 1. Users should be able to select multiple stocks 2. In each stock tab, users should be able to select date range and fetch High, Low, Mean, Median stock prices 3. Model the obtained data and find out mean and variance. You can read about the variance here: https://www.investopedia.com/terms/v/variance.asp Also show these two values 4. Find the #times and time stamps where stock moved outside this range (mean + std. deviation, mean - std. deviation). Call me up to understand more. The result should give only the first instance it happened *5. Along with showing date-time stamps when it moved out of that range, also show the time-stamp when it returned in the range for the first time.
+Salient Features of YF-API_client: 
+1. Users should be able to select multiple stocks 
+2. In each stock tab, users should be able to select date range and fetch High, Low, Mean, Median stock prices 
+3. Models the obtained data and calculates the  mean and variance and shoes these values
+4. Finds the times and time stamps where stock moved outside this bounded range (mean + std. deviation, mean - std. deviation) and shows the  only the first instance it happened.
+5. Along with showing date-time stamps when it moved out of that range, also shows the time-stamp when it returned in the range for the first time.
