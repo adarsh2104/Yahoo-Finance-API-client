@@ -9,6 +9,8 @@ Salient Features of YF-API_client:
 
 * Home Page: Provides option to select from given Stock options and request for data in date range.
 <p align="center"><img width="100%" height="500px" src="https://github.com/adarsh2104/Yahoo-Finance-API-client/blob/main/Visuals/Home_page.png"></img></p>
+
+
 * Result Page: Shows the calculated statastical results for all requtested Stocks within the data range based on the data returned by the Yahoo-finance API.  
 <p align="center"><img width="100%" height="500px" src="https://github.com/adarsh2104/Yahoo-Finance-API-client/blob/main/Visuals/Stock_search_results.png"></img></p> 
 
