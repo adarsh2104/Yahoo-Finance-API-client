@@ -6,11 +6,10 @@ Salient Features of YF-API_client:
 4. It also is capable of finding the times and time stamps where stock moved outside the bounded range (mean + std. deviation, mean - std. deviation) and shows the  only the first instance when it had happened.
 5. Along with showing date-time stamps when it moved out of that range, the client also shows the time-stamp when it returned in the range for the first time.
 
+### Stacks and Libraries Used:
+* Python 3.7
+* Django 3.2
+* Requests 2.25
+* HTML/django templates
 
-Stacks and Libraries Used:
-Python 3.7
-Django 3.2
-Requests 2.25
-HTML/django templates
-
-NOTE: To test this project,Kindly visit https://rapidapi.com/blog/how-to-use-the-yahoo-finance-api/ to get your own API Key.
+### NOTE: To test this project,Kindly visit https://rapidapi.com/blog/how-to-use-the-yahoo-finance-api/ to get your own API Key.
